@@ -1,0 +1,68 @@
+body{
+  background-color: rgb(32,32,32);
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+  --winning_blocks: rgba(0,0,0,0.7);	
+}
+#playerText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+  .grid-box{
+    width: 480px;
+    height:640px;
+    display:flex;
+    margin:auto auto;
+    
+}
+
+.box{
+  width: 150px;
+  height: 150px;
+  text-decoration:none;
+  background:transparent;
+  border:none;
+ 
+  border-bottom: 5px solid white;
+  border-right: 5px solid white;
+  box-sizing: border-box;
+  font-family: 'Indie Flower', 'Comic Sans', cursive; 
+  font-weight: bold;
+  font-size: 5em; 
+  color:#FDFD96;
+  
+}
+
+div:nth-child(3)>button{
+  border-right: none;
+}
+
+div>button:nth-of-type(3){
+  border-bottom: none;
+}
+.box:focus{
+  outline:none;
+}
+
+.box:hover{
+background-color: rgba(0,0,0,0.5);
+  cursor:pointer;
+}
+
+#reset{
+  background-color:#FF69B4;
+  height:50px;
+  width:100px; 
+  margin-bottom:50px;
+  font-family: 'Indie Flower', 'Comic Sans', cursive; 
+  font-weight: bold;
+  font-size: 1.5rem; 
+  color:white;
+  border:2px solid white;
+ 
+}
+button:hover{
+cursor: pointer;
+}
